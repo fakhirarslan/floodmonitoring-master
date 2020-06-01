@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    padding: var(--hPaddTB) var(--hPaddRL);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--paraColor);
+    height: var(--fHeight);
+}
+
+.footer div {
+    font-size: 0.85rem;
+    color: var(--white);
+}

@@ -1,0 +1,32 @@
+.sms-alert-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group-item-heading {
+    font-weight: 500;
+}
+
+.list-group-item-text {
+    font-weight: 400;
+    color: red;
+}
+
+.nav-tabs {
+    background: var(--themeBgDark);
+    border-top: var(--themeBgDark) 8px solid;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0;
+}
+
+.nav-tabs .nav-item .nav-link,
+.nav-tabs .nav-item .nav-link:hover {
+    color: var(--white);
+}
+
+.nav-tabs .nav-item .nav-link.active,
+.nav-tabs .nav-item .nav-link.active:hover {
+    font-weight: 700;
+    color: var(--themeBgDark);
+}

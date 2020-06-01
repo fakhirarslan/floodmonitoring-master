@@ -1,0 +1,124 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: var(--hHeight);
+    z-index: 1111;
+}
+header .bg-dark {
+    background-color: var(--themeColor) !important;
+}
+
+header .navbar {
+    padding: var(--hPaddTB) var(--hPaddRL);
+}
+
+@media (min-width:768px) {
+
+    header .navbar-expand-md {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .navbar-expand-md .navbar-collapse {
+        flex-grow: initial;
+    }
+
+}
+
+.head-nav .nav-link {
+    padding: 0;
+    position: relative;
+}
+.head-nav .nav-link + .nav-link,
+.head-nav .nav-link + .dropdown,
+.head-nav .dropdown + .dropdown {
+    margin-left: 30px;
+}
+
+.head-nav .nav-link svg {
+    fill: rgba(255, 255, 255, 0.7);
+}
+.head-nav .nav-link svg:hover {
+    fill: var(--white);
+}
+.head-nav .nav-link .badge.badge-secondary {
+    position: absolute;
+    top: -2px;
+    right: -6px;
+    font-size: 9px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme-danger);
+    border-radius: 50%;
+}
+
+.navbar-brand,
+.navbar-brand:not([href]) {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white);
+    padding: 0;
+}
+.navbar-brand:hover,
+.navbar-brand:not([href]):hover {
+    color: var(--white);
+}
+
+.avatar {
+    border-radius: 50%; 
+    height: 30px;
+}
+
+.profile-dropdown .dropdown-menu {
+    background-color: var(--themeColor);
+    padding: 0;
+}
+
+.username {
+    text-align: center;
+    color: var(--white);
+    padding: var(--hPaddTB);
+}
+
+.profile-dropdown .dropdown-divider {
+    margin: 0;
+}
+
+.profile-dropdown button {
+    text-align: center;
+    color: var(--white);
+    padding: var(--hPaddTB);
+    height: auto;
+}
+
+.profile-dropdown button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: var(--white);
+}
+
+.profile-dropdown button::before {
+    display: none;
+}
+
+.dropdown-item a {
+    color: aliceblue;
+}
+
+.dropdown-item a:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.switch-on.btn.btn-primary.btn-xs{
+    line-height: calc(16px) !important;
+}
+
+.switch-off.btn.btn-light.btn-xs{
+    line-height: calc(16px) !important;
+}

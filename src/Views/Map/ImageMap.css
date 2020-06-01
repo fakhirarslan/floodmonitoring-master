@@ -1,0 +1,75 @@
+.imagemap-container {
+    padding: 20px;
+    position: relative;
+    background: rgb(5,15,27);
+background: linear-gradient(180deg, rgba(5,15,27,1) 2%, rgba(8,103,213,1) 58%, rgba(8,103,213,1) 83%);
+}
+.imagemap-container .image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 60%;
+height: 90vh;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.tooltip-div {
+    margin: 5px;
+}
+
+.dampin-icon {
+    position: absolute;
+    width: 30px;
+    height: 41px;
+    padding: 5px;
+}
+
+
+.marker8 {
+    left: 56%;
+    top: 20%;
+}
+
+.marker1 {
+    left: 58%;
+    top: 21%;
+}
+
+
+.marker7 {
+    left: 59%;
+    top: 20%;
+}
+
+
+
+.marker6 {
+    left: 60%;
+    top: 22%;
+}
+
+.marker3 {
+    left: 61%;
+    top: 25%;
+}
+
+
+
+.marker4 {
+    left: 63%;
+    top: 28%;
+}
+
+
+.marker2 {
+    left: 64%;
+    top: 32%;
+}
+
+
+.marker5 {
+    left: 29%;
+    top: 73%;
+}

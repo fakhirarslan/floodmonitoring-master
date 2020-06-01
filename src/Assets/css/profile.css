@@ -1,0 +1,11 @@
+.edit-profile {
+  padding: 25px 0;
+}
+
+.title-bottom-space {
+  margin-bottom: 2rem;
+}
+
+input[type='email'][readonly] {
+  cursor: not-allowed;
+}

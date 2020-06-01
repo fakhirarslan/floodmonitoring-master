@@ -1,0 +1,22 @@
+.table-header {
+    color: white;
+    background: #DE482B;
+}
+
+.table-body {
+    color: white;
+    background: #3B77BC;
+}
+
+.table-card .card .card-header {
+    padding: var(--hPaddTB);
+    border-top: 6px solid #F07409;
+    background-color: rgba(var(--theme-r), var(--theme-g), var(--theme-b), 0.1);
+    font-weight: 600;
+}
+
+.table-card .card .card-body {
+    height: 500px;
+    overflow-y: scroll;
+}
+
